@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Card</title>
+    <style>
+
+        .price-card {
+            border: 1px solid #0a0a0a;
+            border-radius: 5px;
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 4px 3px rgba(254, 253, 253, 0.1);
+            width:100%;
+            height: 500px;
+           background-color: #0a0a0a;
+        }
+
+        .price {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff;
+
+        }
+
+        .duration {
+            color: #ffffff;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            margin: 10px 0;
+            color: #ffffff;
+        }
+
+        .button {
+            background-color: #359f0b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .alignment{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content:space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="alignment">
+    <div class="price-card">
+        <div class="price">JIO Recharge</div><br>
+        <div class="price">Rs.239</div><br>
+        <div class="duration">Per month</div><br>
+        <ul class="features">
+            <li>Unlimited 5G</li><br>
+            <li>Unlimited Free Calls</li><br>
+            <li>Hotstar Subscription per month</li><br>
+            <li>Jio Cinema</li><br>
+        </ul>
+        <button class="button">Buy Now</button>
+    </div>
+    <div class="price-card">
+        <div class="price">VI Recharge</div><br>
+        <div class="price">Rs.249</div><br>
+        <div class="duration">Per month</div><br>
+        <ul class="features">
+            <li>1.5GP 4G/Day</li><br>
+            <li>Unlimited Free Calls</li><br>
+            <li>100 SMS Daily</li><br>
+            <li>Unlimited data on 12AM-6AM</li><br>
+        </ul>
+        <button class="button">Buy Now</button>
+    </div>
+    </div>
+</body>
+</html>
